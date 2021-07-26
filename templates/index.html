@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Converter</title>
+</head>
+<body style="background-color: {{value}}">
+    <form method='POST'>
+        <input type="number" name="red" placeholder="Red">
+        <input type="number" name="green" placeholder="Green">
+        <input type="number" name="blue" placeholder="Blue">
+        <input type="submit" value="submit">
+        <div style="background-color: white; color: black; width: 30%;">
+            <h1>HEX is: {{value}}</h1>
+        </div>
+    </form>
+</body>
+</html>
